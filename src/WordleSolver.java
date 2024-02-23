@@ -15,8 +15,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * This is a program that solves Wordle. Go to "possibleWords.txt" in the text file of this project
- * after running the program in order to view possible words that solve the Wordle puzzle. 
+ * This is a program that solves Wordle. 
  *
  * @author Austin Mueller
  *
