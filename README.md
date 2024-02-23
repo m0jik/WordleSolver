@@ -96,11 +96,10 @@ Now, go to the `possibleWords.txt` file mentioned earlier. You will now see a li
 
 Let's say `Coyly` is the correct word for the Wordle and the first guess you use in your active Wordle game is `Trade`.
 
-When asked to `Type your guess`, you will input `-----`.
-
-When asked to `Type all yellow letters`, you will input `-`.
-
-When asked to `Type all grey letters`, you will input `ertad`.
+1. When asked `Would you like to try another word`, you will input `y`.
+2. When asked to `Type your guess`, you will input `-----`.
+3. When asked to `Type all yellow letters`, you will input `-`.
+4. When asked to `Type all grey letters`, you will input `ertad`.
 
 #### Note
 
@@ -110,51 +109,38 @@ The order that letters are typed in for the yellow and grey letters section is n
 
 Using the `possibleWords.txt` file as a reference, let's say your next guess is `flung`.
 
-When asked `Would you like to try another word`, you will input `y`.
-
-When asked to `Type your guess`, you will input `-----`.
-
-When asked to `Type all yellow letters`, you will input `l`.
-
-When asked to `Type the position of "l"`, you will input `1`.
-
-When asked to `Type all grey letters`, you will input `ertadfung`.
+1. When asked `Would you like to try another word`, you will input `y`.
+2. When asked to `Type your guess`, you will input `-----`.
+3. When asked to `Type all yellow letters`, you will input `l`.
+4. When asked to `Type the position of "l"`, you will input `1`.
+5. When asked to `Type all grey letters`, you will input `ertadfung`.
 
 ### Attempt Three
 
 Using the `possibleWords.txt` file as a reference, let's say your next guess is `skill`.
 
-When asked `Would you like to try another word`, you will input `y`.
-
-When asked to `Type your guess`, you will input `---l-`.
-
-When asked to `Type all yellow letters`, you will input `l`.
-
-When asked to `Type the position of "l"`, you will input `1`.
-
-When asked to `Type all grey letters`, you will input `ertadfungski`.
+1. When asked `Would you like to try another word`, you will input `y`.
+2. When asked to `Type your guess`, you will input `---l-`.
+3. When asked to `Type all yellow letters`, you will input `l`.
+4. When asked to `Type the position of "l"`, you will input `1`.
+5. When asked to `Type all grey letters`, you will input `ertadfungski`.
 
 ### Attempt Four
 
 Using the `possibleWords.txt` file as a reference, let's say your next guess is `lowly`.
 
-When asked `Would you like to try another word`, you will input `y`.
-
-When asked to `Type your guess`, you will input `-o-ly`.
-
-When asked to `Type all yellow letters`, you will input `l`.
-
-When asked to `Type the position of "l"`, you will input `1`.
-
-When asked to `Type all grey letters`, you will input `ertadfungskiw`.
+1. When asked `Would you like to try another word`, you will input `y`.
+2. When asked to `Type your guess`, you will input `-o-ly`.
+3. When asked to `Type all yellow letters`, you will input `l`.
+4. When asked to `Type the position of "l"`, you will input `1`.
+5. When asked to `Type all grey letters`, you will input `ertadfungskiw`.
 
 ### Attempt Five
 
 Using the `possibleWords.txt` file as a reference, let's say your next guess is `coyly`.
 
-When asked `Would you like to try another word`, you will input `n`.
-
-This will close the program, as you have won. Good job!
+1. When asked `Would you like to try another word`, you will input `n`.
+2. This will close the program, as you have won. Good job!
 
 ## Troubleshooting
 
