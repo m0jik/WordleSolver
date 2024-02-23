@@ -94,7 +94,7 @@ Now, go to the `possibleWords.txt` file mentioned earlier. You will now see a li
 
 ### Attempt One
 
-Let's say `Coyly` is the correct word for the Wordle and the first guess you use in your active Wordle game is `Trade`.
+Let's say `coyly` is the correct word for the Wordle and the first guess you use in your active Wordle game is `trade`.
 
 1. When asked `Would you like to try another word`, you will input `y`.
 2. When asked to `Type your guess`, you will input `-----`.
