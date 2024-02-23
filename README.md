@@ -43,7 +43,7 @@ Please ensure that the requirements are met on your machine before running.
 2. Ensure that the program can compile (it's just a normal Java program that uses standard Java tools, so this shouldn't be an issue).
 3. From the `text` directory, open the `possibleWords.txt` file so that you may view possible words as you run the program.
 
-    Check the notes below on how to properly use the program.
+Check the notes below on how to properly use the program.
 
 ## Running the Program
 
@@ -92,53 +92,68 @@ Now, go to the `possibleWords.txt` file mentioned earlier. You will now see a li
 
 ## An Example
 
-Let's say `Coyly` is the correct word for the Wordle and the first guess you use in your active Wordle game is `Trade`.
-
 ### Attempt One
 
+Let's say `Coyly` is the correct word for the Wordle and the first guess you use in your active Wordle game is `Trade`.
+
 When asked to `Type your guess`, you will input `-----`.
+
 When asked to `Type all yellow letters`, you will input `-`.
+
 When asked to `Type all grey letters`, you will input `ertad`.
 
 #### Note
 
 The order that letters are typed in for the yellow and grey letters section is not important, so long as all the letters are there.
 
-Using the `possibleWords.txt` file as a reference, let's say your next guess is `flung`.
-
 ### Attempt Two
 
-When asked `Would you like to try another word`, you will input `y`.
-When asked to `Type your guess`, you will input `-----`.
-When asked to `Type all yellow letters`, you will input `l`.
-When asked to `Type the position of "l"`, you will input 1.
-When asked to `Type all grey letters`, you will input `ertadfung`.
+Using the `possibleWords.txt` file as a reference, let's say your next guess is `flung`.
 
-Using the `possibleWords.txt` file as a reference, let's say your next guess is `skill`.
+When asked `Would you like to try another word`, you will input `y`.
+
+When asked to `Type your guess`, you will input `-----`.
+
+When asked to `Type all yellow letters`, you will input `l`.
+
+When asked to `Type the position of "l"`, you will input `1`.
+
+When asked to `Type all grey letters`, you will input `ertadfung`.
 
 ### Attempt Three
 
-When asked `Would you like to try another word`, you will input `y`.
-When asked to `Type your guess`, you will input `---l-`.
-When asked to `Type all yellow letters`, you will input `l`.
-When asked to `Type the position of "l"`, you will input 1.
-When asked to `Type all grey letters`, you will input `ertadfungski`.
+Using the `possibleWords.txt` file as a reference, let's say your next guess is `skill`.
 
-Using the `possibleWords.txt` file as a reference, let's say your next guess is `lowly`.
+When asked `Would you like to try another word`, you will input `y`.
+
+When asked to `Type your guess`, you will input `---l-`.
+
+When asked to `Type all yellow letters`, you will input `l`.
+
+When asked to `Type the position of "l"`, you will input `1`.
+
+When asked to `Type all grey letters`, you will input `ertadfungski`.
 
 ### Attempt Four
 
-When asked `Would you like to try another word`, you will input `y`.
-When asked to `Type your guess`, you will input `-o-ly`.
-When asked to `Type all yellow letters`, you will input `l`.
-When asked to `Type the position of "l"`, you will input 1.
-When asked to `Type all grey letters`, you will input `ertadfungskiw`.
+Using the `possibleWords.txt` file as a reference, let's say your next guess is `lowly`.
 
-Using the `possibleWords.txt` file as a reference, let's say your next guess is `coyly`.
+When asked `Would you like to try another word`, you will input `y`.
+
+When asked to `Type your guess`, you will input `-o-ly`.
+
+When asked to `Type all yellow letters`, you will input `l`.
+
+When asked to `Type the position of "l"`, you will input `1`.
+
+When asked to `Type all grey letters`, you will input `ertadfungskiw`.
 
 ### Attempt Five
 
+Using the `possibleWords.txt` file as a reference, let's say your next guess is `coyly`.
+
 When asked `Would you like to try another word`, you will input `n`.
+
 This will close the program, as you have won. Good job!
 
 ## Troubleshooting
