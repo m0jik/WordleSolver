@@ -169,6 +169,16 @@ public final class WordleSolver {
         } catch (IOException e) {
             System.err.print("Error writing to file.");
         }
+        System.out.println();
+	    try (BufferedReader br = new BufferedReader(new FileReader("text/possibleWords.txt"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println();
     }
 
     /**

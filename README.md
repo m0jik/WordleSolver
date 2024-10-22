@@ -39,9 +39,9 @@ Please ensure that the requirements are met on your machine before running.
 
 ### Quick Start
 
-1. Ensure that Java 21 and some IDE with a terminal (I used VS Code but Eclipse could work, too) installed on your system.
+1. Ensure that Java 21 and some IDE with a terminal (I used VS Code but Eclipse could work, too) installed on your system. *EDIT*: You could also use CLI in Linux (I personally used Maven to build the program in Ubuntu and it works great).
 2. Ensure that the program can compile (it's just a normal Java program that uses standard Java tools, so this shouldn't be an issue).
-3. From the `text` directory, open the `possibleWords.txt` file so that you may view possible words as you run the program.
+3. From the `text` directory, open the `possibleWords.txt` file so that you may view possible words as you run the program. *EDIT*: This step is no longer necessary, as the possible words prints itself in a nice list in your terminal/CLI. However, I figured I'd leave this in as a redundancy.
 
 Check the notes below on how to properly use the program.
 
