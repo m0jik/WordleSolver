@@ -204,8 +204,7 @@ public final class WordleSolver {
             return;
         }
         wordListCreator(br); //Creates the wordList
-        System.out.print("Would you like to try a word (y/n)? ");
-        String response = input.next();
+        String response = "y";
         while (response.compareTo("y") == 0) {
             String wordGuess = guessAnalyzer(ineligibleChars, unknownCharsPos,
                     input);
